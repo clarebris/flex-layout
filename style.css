@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: hwb(180 91% 5%);
+
+  display: flex;
+  min-height: 100vh;
+  padding: 8vh 15vw;
+}
+
+.main {
+  width: 80vw;
+  height: 90vh;
+
+}
+.nav {
+  width: 100%;
+  min-height: 24vh;
+  text-align: center;
+}
+
+.nav h1 {
+  font-weight: 200;
+  font-size: 2.1rem;
+  color: hsl(229, 6%, 66%);
+  line-height: 1.6;
+}
+
+.nav h2 {
+  font-weight: 600;
+  font-size: 2.1rem;
+  color: hsl(234, 12%, 34%);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.nav p {
+  color: hsl(229, 6%, 66%);
+  padding-inline: 28%;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+.cards{
+    display:flex;
+    flex:1;
+    flex-wrap:wrap;
+    padding:10px;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+    flex-grow:1;
+}
+
+/*.cards {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+  margin-top:20px; 
+  flex:1;
+  flex-grow:1;
+}*/
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: white; 
+  border-radius: 5px;
+  flex:.3;
+  flex-wrap:wrap;
+  width: 33%;
+
+}
+
+.cards > .supervisor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:30px;
+  background-color: white;
+   width: 33%;
+  border-radius: 5px;
+  border-top: solid cyan;
+}
+
+
+.cards > .calc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+  width: 33%;
+  border-radius: 5px;
+  border-top: solid blue 3px;
+}
+.cards > .middle>.karma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  border-top: solid orange;
+  
+}
+.cards >.middle>.teamb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:px;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  border-top: solid red 3px;
+  
+}
+
+
+.img-all {
+  display: flex;
+  align-self: flex-end;
+  
+  margin-top: 10px;
+  width: 20%;
+}
